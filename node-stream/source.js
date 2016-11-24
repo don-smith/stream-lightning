@@ -3,7 +3,6 @@ const inherits = require('util').inherits
 
 function Source (data, options) {
   Readable.call(this, options)
-  // this.content = 'The quick brown fox jumps over the lazy dog.'
   this.content = data
 }
 
