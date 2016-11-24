@@ -9,6 +9,7 @@ This is a small lightning talk I gave at the Auckland Node.js meetup.
   - Are most often _used_, but can also be _created_
 * What are Node.js streams?
   - Often uses the observer pattern (events)
+  - Can also use piping and direct reads
   - Types: Readable, Writeable, Duplex, Transform
 * What is a pull-stream?
   - A minimal take on streams
